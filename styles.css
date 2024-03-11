@@ -1,0 +1,74 @@
+@font-face{
+    font-family: inter;
+    src: url(Inter-VariableFont_slnt,wght.ttf);
+}
+p{
+    font-family: inter;
+    font-size: 14px;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+}
+#name{
+font-family: inter;
+font-weight: 700;
+color: hsl(0, 0%, 100%);
+justify-content:center;
+display:flex;
+margin: auto;
+}
+#maindiv{
+    background-color: hsl(0, 0%, 12%);
+   /*height: 60%;
+    width:20% ;
+margin: auto auto;
+justify-content: center;
+display: flex;*/
+margin: 0;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+#profile{
+    border-radius: 50%;
+  justify-content:center;
+  display:flex;
+  margin: auto;
+
+}
+.links{
+background-color: hsl(0, 0%, 20%);
+border:20px 20px;
+padding: 20px 20px;
+width: 300px;
+border-radius: 10px;
+margin: 20px;
+}
+a{
+justify-content: center;
+display: flex;
+margin: auto;
+color: hsl(0, 0%, 100%);
+text-decoration: none;
+font-family: inter;
+font-weight: 700;
+}
+#location, #description{
+    font-family: inter;
+    font-weight: 600;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#location{
+    color: hsl(75, 94%, 57%);
+}
+#description{
+    color:hsl(0, 0%, 100%);
+}
+#maindiv{
+    border-radius: 20px;
+}
